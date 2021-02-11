@@ -1,0 +1,22 @@
+$color-grey : 	#A8A8A8;
+
+
+* {
+  margin: 0;
+}
+
+.App {
+  min-height: 100vh;
+  text-align: center;
+  background-color: $color-grey;
+   a:visited{
+     color: black;
+   }
+  &--Dark {
+    background-color: black;
+    color: white;
+    a:visited{
+      color: white
+    }
+   };
+}
